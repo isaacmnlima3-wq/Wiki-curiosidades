@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+    <title>curiosidade 2 (wiki curiosidades).</title>
+    <style>
+        body {
+            background-color: #242428; 
+        }
+
+                a {
+            color: #656565; /* Mudei para Ciano para combinar com seu padrão */
+            text-decoration: none; /* Remove o sublinhado */
+            font-weight: bold; /* Deixa a letra mais "grossinha" para ler melhor */
+        }
+
+        /* Quando você passa o mouse, ele brilha em branco */
+        a:hover {
+            color: #bbbbbb;
+        }
+    </style>
+
+    </head>
+    <body>
+	<h1 style="color: #ffff00"> SEGUNDO ALGUNS ESTUDOS, AS MULHERES ESQUECEM DO SEUS SONHOS MENOS DO QUE OS HOMENS.</h1>
+	<h3 style="color: #ffffff"> </h3>
+	<img src="https://img.freepik.com/vetores-premium/um-desenho-de-uma-montanha-com-neve-nela_1217673-6035.jpg?w=2000" alt="curiosidade" width="400">
+	<img src="https://media.istockphoto.com/vectors/summer-fields-landscape-cartoon-countryside-valley-with-green-hills-vector-id1163580954?k=20&m=1163580954&s=170667a&w=0&h=REPL4SrYV8-JyPMCsTpNHImpCcyzss56LMkLb6w2MZQ=" alt="curiosidade" width="400">
+	<a href="Wiki Curiosidades(inicio).html">voltar para o inicio</a>
+
+
+    </body>
+</html>
