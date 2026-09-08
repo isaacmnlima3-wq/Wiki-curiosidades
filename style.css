@@ -1,19 +1,71 @@
- body {
-            background-color: #242428; 
-        }
+body {
+    background-color: #242428;
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    line-height: 1.6;
+}
 
-                a {
-            color: #fbf9fc; /* Mudei para Cinza claro para combinar com seu padrão */
-            
-            font-weight: bold; /* Deixa a letra mais "grossinha" para ler melhor */
-        }
+/* Capa centralizada */
+.capa {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 12px;
+}
 
-        /* Quando você passa o mouse, ele brilha em branco */
-        a:hover {
-            color: #eeeeee;
-        }
+/* Cabeçalho principal */
+h1 {
+    color: #fbf9fc;
+    text-align: center;
+}
 
-        h1 {
-        
-        color: #fbf9fc;
-        }
+.autor {
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+/* Divisória moderna */
+hr {
+    border: 0;
+    height: 1px;
+    background: #44444c;
+    margin: 25px 0;
+}
+
+/* Seção de lista na página inicial */
+.lista-curiosidades {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Estilo dos links/botões */
+a {
+    color: #ffffff;
+    background-color: #323238;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s, transform 0.1s;
+    display: block;
+}
+
+a:hover {
+    background-color: #42424a;
+    color: #00ff00;
+    transform: translateY(-2px);
+}
+
+/* Imagens das páginas de curiosidade */
+img.curiosidade-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
