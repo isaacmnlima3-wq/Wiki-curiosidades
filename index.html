@@ -2,30 +2,74 @@
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki Curiosidades</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10449/10449540.png" type="image/x-icon">
 </head>
 <body>
-    <picture>
-        <source media="(max-width: 720px)" srcset="Wiki-curiosidades-p.png" type="image/png" width="150" >
-        <source media="(max-width: 1080px)" srcset="Wiki-curiosidades-m.png" type="image/png" width="250">
-        <img src="Wiki-curiosidades-g.png" alt="capa da wiki curiosidades" width="400" class="capa">
-    </picture>
-    <h1>Wiki Curiosidades</h1>
-    <h3 class="autor">Feito por: Isaac Lima</h3>
-    
-    <hr>
+    <header class="header-principal">
+        <a href="index.html" class="logo-link">
+            <img src="Wiki-curiosidades-m.png" alt="Logo Wiki Curiosidades" class="logo-img">
+        </a>
+        <div class="header-texto">
+            <h1>Wiki Curiosidades</h1>
+            <p class="autor">Feito com dedicação por <span>Isaac Lima</span></p>
+        </div>
+    </header>
 
-    <h2 style="color: #00ff00;">CURIOSIDADES:</h2>
+    <main>
+        <section class="secao-curiosidades">
+            <div class="secao-titulo">
+                <h2>Explorar Curiosidades</h2>
+                <span class="badge-contador">3 artigos</span>
+            </div>
 
-    
-    
-    <div class="lista-curiosidades">
-        <a href="curiosidade-1.html">1. Pesquisas apontam que as mulheres costumam lembrar mais dos sonhos do que os homens.</a>
-        <a href="curiosidade-2.html">2. Por que lugares altos são mais frios?</a>
-        <a href="curiosidade-3.html">3. Um dia em Vênus é mais longo que um ano em Vênus</a>
-        <a href="teste.html" target="_blank" style="background-color: rgb(60, 153, 96);" >Calculadora(caso queira usar)</a>
-    </div>
+            <div class="lista-curiosidades">
+                <a href="curiosidade-1.html" class="card-curiosidade">
+                    <span class="numero-tag">01</span>
+                    <div class="conteudo-link">
+                        <h3>Pesquisas apontam que as mulheres costumam lembrar mais dos sonhos do que os homens</h3>
+                        <p>Descubra como o sono REM e a memória dos sonhos funcionam na mente humana.</p>
+                    </div>
+                    <span class="seta-icone">→</span>
+                </a>
+
+                <a href="curiosidade-2.html" class="card-curiosidade">
+                    <span class="numero-tag">02</span>
+                    <div class="conteudo-link">
+                        <h3>Por que lugares altos são mais frios?</h3>
+                        <p>Entenda o papel da pressão atmosférica, densidade do ar e calor da superfície.</p>
+                    </div>
+                    <span class="seta-icone">→</span>
+                </a>
+
+                <a href="curiosidade-3.html" class="card-curiosidade">
+                    <span class="numero-tag">03</span>
+                    <div class="conteudo-link">
+                        <h3>Um dia em Vênus é mais longo que um ano em Vênus</h3>
+                        <p>Uma fascinante anomalia espacial sobre rotação retrógrada e translação planetária.</p>
+                    </div>
+                    <span class="seta-icone">→</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="secao-utilitarios">
+            <h2 class="subtitulo-secao">Ferramentas & Extras</h2>
+            <a href="teste.html" target="_blank" class="card-utilitario">
+                <div class="icone-utilitario">🧮</div>
+                <div class="conteudo-link">
+                    <h3>Calculadora Interativa</h3>
+                    <p>Precisa fazer cálculos rápidos? Acesse nossa ferramenta prática.</p>
+                </div>
+                <span class="tag-badge">Abrir</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; Wiki Curiosidades — Conhecimento rápido e descomplicado.</p>
+    </footer>
 </body>
 </html>
